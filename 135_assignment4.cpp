@@ -31,8 +31,8 @@ int main()
     cout << "The roots are complex" << endl;          // if discremenant < 0, the root is complex, exit
   else                                                // else, calculate quadtratic equation
     {
-      x1=(-b+sqrt(discriminant))/(2*a);
-      x2=(-b-sqrt(discriminant))/(2*a);
+      x1=(-b+sqrt(discriminant))/(2*a);               // calc +
+      x2=(-b-sqrt(discriminant))/(2*a);               // calc -
       cout << fixed << setprecision(3);
       cout << "x1 = " << x1 << endl;
       cout << "x2 = " << x2 << endl;
