@@ -26,10 +26,10 @@ int main()
   discriminant = b*b-4*a*c;
 
   if( a == 0)
-    cout << "The equation is not quadratic" << endl;
+    cout << "The equation is not quadratic" << endl;  // if discremenant = 0, not quadtratic, exit
   else if( discriminant < 0)
-    cout << "The roots are complex" << endl;
-  else
+    cout << "The roots are complex" << endl;          // if discremenant < 0, the root is complex, exit
+  else                                                // else, calculate quadtratic equation
     {
       x1=(-b+sqrt(discriminant))/(2*a);
       x2=(-b-sqrt(discriminant))/(2*a);
